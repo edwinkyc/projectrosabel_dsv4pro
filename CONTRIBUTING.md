@@ -8,7 +8,7 @@ higher standard of justification than a typical software project.
 
 ### 1. Report a problem or gap
 
-[Open an issue]([GITHUB_ISSUES_LINK_PLACEHOLDER]) describing:
+Open an issue describing:
 
 - **What happened:** the behavior you observed or the gap you found
 - **What should happen:** the behavior the prompt should produce
