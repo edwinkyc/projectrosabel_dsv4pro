@@ -25,9 +25,8 @@ of this prompt before a fix exists.
 
 Instead, report privately via:
 
-- **Email:** [edwincky@outlook.com]
-- **Or GitHub Private Vulnerability Reporting:** go to this repository's
-  **Security** tab → **Report a vulnerability** (if enabled)
+- **GitHub Private Vulnerability Reporting:** go to this repository's
+  **Security** tab → **Report a vulnerability** 
 
 Include:
 
