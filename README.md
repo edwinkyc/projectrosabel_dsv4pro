@@ -25,7 +25,9 @@ This project is a **prompt specification for AI systems**. It is:
 Deploying this prompt in any clinical setting requires independent validation,
 institutional governance, and compliance with applicable healthcare regulations
 (e.g., HIPAA, GDPR). The authors accept no liability for clinical outcomes
-resulting from its use. See [DISCLAIMER.md](DISCLAIMER.md) for details.
+resulting from its use. DeepSeek is a trademark of its respective owner. 
+This project is independent and not affiliated with, endorsed by, or sponsored 
+by DeepSeek or Poe.See [DISCLAIMER.md](DISCLAIMER.md) for details.
 
 ---
 
