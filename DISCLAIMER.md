@@ -70,3 +70,4 @@ clinical knowledge sources.
 ---
 
 *If you do not agree with these terms, do not use this project.*
+*DeepSeek is a trademark of its respective owner. This project is independent and not affiliated with, endorsed by, or sponsored by DeepSeek or Poe.*
