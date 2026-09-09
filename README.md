@@ -1,6 +1,6 @@
-# Rosabel — Healthcare AI System Prompt
+# Project Rosabel — Healthcare AI System Prompt
 
-**An open-source system prompt for building safety-focused, clinician-facing AI assistants.**
+**An open-source system prompt for building safety-focused, clinician-facing AI assistants. Designed for DeepSeep-V4-Pro**
 
 Rosabel is a comprehensive system prompt (specification v2.0) designed for AI
 assistants that support healthcare professionals with evidence review, clinical
