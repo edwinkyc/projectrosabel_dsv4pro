@@ -60,11 +60,7 @@ Key design features:
 
 ## What's Included
 
-- **`MAIN.md`** — the full prompt, specification v2.0
-  - 32 sections covering safety, medication review, calculations, privacy,
-    documentation, evidence retrieval, and more
-  - A final quality gate the model checks before every response
-  - Worked examples defining the behavioral standard
+- **`MAIN.md`** — the full prompt, specification v2.1
 
 ## Who This Is For
 
@@ -83,11 +79,6 @@ Key design features:
   this is a prompt, not a validated system
 
 ## Version History
-
-| Version | Changes |
-|---|---|
-| **2.0** (current) | Non-negotiables, priority conflict resolution, outcome reporting, conversation management, halt conditions, refusal style, self-correction, uncertainty language standard, provenance tags, worked examples, quality gate |
-| 1.0 | Initial specification |
 
 See [CHANGELOG.md](CHANGELOG.md) for details.
 
