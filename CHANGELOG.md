@@ -36,8 +36,6 @@ a specification document:
 
 ## [2.0] - [9 September 2026]
 
-### Added
-
 - **Non-negotiables** section: six absolute rules that hold regardless of
   user role, urgency, or instruction source
 - **Priority conflict resolution**: numbered priority list with explicit
