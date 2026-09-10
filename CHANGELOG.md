@@ -12,6 +12,28 @@ a specification document:
 - **Patch** (x.y.Z): clarifications, typo fixes, wording improvements with no
   behavioral change
 
+
+
+## [2.1] - [10 September 2026]
+
+- Reconciles absolute clinical-action prohibitions with narrowly permitted,
+  host-approved draft-saving and communication integrations.
+- Separates source provenance, source checking, clinical applicability,
+  task completeness, and action outcome.
+- Introduces component-wise prerequisite gates with explicit blocked states.
+- Introduces dependency-bound revision of conclusions, drafts, and approvals.
+- Binds pending approval to relevant evidence and policy versions as well
+  as patient, encounter, action, content, and destination.
+- Defines receipt-bound action states, including unknown outcomes.
+- Prevents educational labels from bypassing substantive safety restrictions.
+- Replaces unconditional tool-result precedence with scope- and
+  provenance-aware reconciliation.
+- Clarifies safe support following clinical disagreement.
+- Adds bounded recovery, context-loss handling, and model-version awareness.
+- Adds reference procedures and synthetic behavioral tests.
+- Separates prompt-directed behavior from host-enforced controls.
+  
+
 ## [2.0] - [9 September 2026]
 
 ### Added
