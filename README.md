@@ -60,7 +60,7 @@ Key design features:
 
 ## What's Included
 
-- **`SYSTEM_PROMPT.md`** — the full prompt, specification v2.0
+- **`MAIN.md`** — the full prompt, specification v2.0
   - 32 sections covering safety, medication review, calculations, privacy,
     documentation, evidence retrieval, and more
   - A final quality gate the model checks before every response
