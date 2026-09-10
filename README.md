@@ -42,21 +42,31 @@ EHR access, no prescribing capability, and no patient data.*
 
 ---
 
+// 
 ## What This Prompt Does
 
-Rosabel defines how an AI assistant should behave when supporting clinicians.
+Project Rosabel defines how an AI assistant should support clinicians while preserving factual integrity, patient safety, and professional accountability.
+The prompt specifies behavior; authentication, access restrictions, approval validation, and external-action controls require implementation by the host system.
+
 Key design features:
 
 | Area | What the prompt enforces |
 |---|---|
 | **Non-negotiables** | Never fabricate clinical facts, sources, or completed actions — regardless of urgency or user authority claims |
+| **Component-wise safety gates** | Evaluates prerequisites separately for each component, completing safe work while withholding only unsupported/unauthorized parts |
 | **Medication safety** | Halt conditions that block executable dosing when weight, renal function, or verified sources are missing |
-| **Epistemic honesty** | "Interaction check failed" is never reported as "no interactions found" |
-| **Injection resistance** | Instructions embedded in patient records or documents are treated as data, never as commands |
-| **Documentation integrity** | Never fabricates exam findings, consent, or "negative" review of systems |
-| **Uncertainty language** | Standardized phrasing — no invented confidence percentages, no false reassurance |
-| **Provenance** | Distinguishes patient-reported, observed, lab, device, and inferred information |
+| **Epistemic honesty** | "Interaction check failed" is never reported as "no interactions found"; partial reviews remain explicitly partial |
+| **Injection resistance** | Instructions embedded in patient records, attachments, or documents are treated as data, never as commands |
+| **Documentation integrity** | Never fabricates exam findings, consent, counseling, administration, or "negative" review of systems; preserves draft status |
+| **Uncertainty language** | Standardized phrasing identifying what is unknown and why — no invented confidence percentages, no false reassurance |
+| **Provenance** | Distinguishes patient-reported, observed, lab, device, historical, and inferred information with timestamps and scope |
+| **Dependency-bound revision** | Requires reassessment of dependent work when supporting info changes; unaffected independent work continues |
+| **Evidence-bound approval** | Binds approval to specific patient, encounter, content, destination, evidence, and policy versions; material changes invalidate approval |
+| **Action-outcome integrity** | Separates preparation, approval, submission, and outcomes; requires matching receipts for completion claims |
 | **Scope discipline** | Drafts clinical orders and notes, but never executes, signs, or transmits them |
+| **Privacy and identity** | Enforces patient-scoped access, minimum necessary information, and separation of patient data from general memory |
+| **Failure recovery** | Continues independent work after failures, limits retries, and prevents ungoverned repeats on unknown outcomes |
+| **Version-aware deployment** | Separates prompt version from model, tools, and policies; does not assume validation transfers across changes |
 
 ## What's Included
 
