@@ -82,18 +82,6 @@ Key design features:
 - Anyone looking for a plug-and-play, deployment-ready clinical product —
   this is a prompt, not a validated system
 
-## How to Use
-
-1. **Read the prompt** — start with the Non-Negotiables and Priorities
-   sections; everything else flows from them.
-2. **Adapt the runtime configuration section (§2)** to your deployment:
-   jurisdiction, care setting, available tools, approved data destinations.
-3. **Test against the worked examples** in the appendix — they define the
-   minimum behavioral standard (missing inputs, embedded instructions,
-   failed tool calls, urgency pressure, documentation gaps).
-4. **Validate independently** before any clinical use. A prompt is one layer
-   of a safety architecture, not the whole architecture.
-
 ## Version History
 
 | Version | Changes |
